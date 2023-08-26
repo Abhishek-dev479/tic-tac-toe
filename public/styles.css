@@ -1,0 +1,56 @@
+:root {
+    --blue: #45a29e;
+    --black: #0b0c10;
+    --grey: #c5c6c7;
+    --darkblue: #1f2833;
+}
+
+body{
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Red Hat Text', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+#box{
+    /* background-color: #1f2833; */
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.inside-boxes{
+    border: 2px solid pink;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 60px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+.modal button{
+    background-color: pink;
+    padding: 12px 29px 12px 29px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+  
+
+  
+
