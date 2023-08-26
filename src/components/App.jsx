@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 import Box from './Box.jsx';
 import Modal from './Modal.jsx';
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://tic-tac-toe-backend-ka3c.onrender.com");
 
 function App(){
     let [game, setGame] = useState([[-1, -1, -1], [-1, -1, -1], [-1, -1, -1]]);
