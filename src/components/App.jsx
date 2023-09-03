@@ -7,7 +7,7 @@ import Home from './Home.jsx';
 import Create from './Create.jsx';
 import Game from './Game.jsx';
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("https://tic-tac-toe-backend-ka3c.onrender.com");
 
 function App(){
     let [game, setGame] = useState([[-1, -1, -1], [-1, -1, -1], [-1, -1, -1]]);
