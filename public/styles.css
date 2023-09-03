@@ -282,3 +282,17 @@ font-family: 'Roboto', sans-serif;
 [id='12'], [id='22']{
     border-top: var(--border)
 }
+
+
+@media screen and (max-width: 800px) {
+
+  .game-name-score{
+    display: none;
+  }
+ 
+  .home-box img{
+    width: 200px;
+    height: 200px;
+    /* margin: 25px; */
+  }
+}
